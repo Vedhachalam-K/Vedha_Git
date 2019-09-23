@@ -1,4 +1,8 @@
 {
-	"name":"vedha",
-	"dept":"it"
+	["id":"1",
+	"traveller":"Vedhachalam Kasinathan",
+	"email":"vedhachalam@yahoo.com",
+	"mode":"flight",
+	"from":"New York",
+	"to":"Washington DC"]
 }
