@@ -2,19 +2,17 @@
 	"travellers":[
 		{
 			"id": 1,
-			"traveller": "Vedhachalam Kasinathan",
-			"email": "vedhachalam@yahoo.com",
+			"traveller": "abcd",
 			"mode": "flight",
 			"from": "New York",
 			"to": "Washington DC"
 		},
 		{
-			"id": 1,
-			"traveller": "Vedhachalam Kasinathan",
-			"email": "vedhachalam@yahoo.com",
+			"id": 2,
+			"traveller": "wxyz",
 			"mode": "flight",
-			"from": "New York",
-			"to": "Washington DC"
+			"from": "Washington DC",
+			"to": "Dallas"
 		}
 	]
 }
