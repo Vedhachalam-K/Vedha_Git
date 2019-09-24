@@ -14,5 +14,19 @@
 			"from": "Washington DC",
 			"to": "Dallas"
 		}
+	],
+	"todo": [
+		{
+			"id": 1,
+			"action": "",
+			"actionDate": "2019-09-24T12:00:00.000Z",
+			"statusDone": "yes"
+		},
+		{
+			"id": 2,
+			"action": "",
+			"actionDate": "2019-09-24T12:00:00.000Z",
+			"statusDone": "yes"
+		}
 	]
 }
