@@ -18,13 +18,13 @@
 	"todo": [
 		{
 			"id": 1,
-			"action": "",
+			"action": "Do Exercise",
 			"actionDate": "2019-09-24T12:00:00.000Z",
 			"statusDone": "yes"
 		},
 		{
 			"id": 2,
-			"action": "",
+			"action": "Get Flowers",
 			"actionDate": "2019-09-24T12:00:00.000Z",
 			"statusDone": "yes"
 		}
