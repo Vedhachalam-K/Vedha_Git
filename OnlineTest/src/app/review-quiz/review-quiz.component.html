@@ -1,0 +1,10 @@
+<table style="margin-left: 20px; margin-top: 25px; width: 20%;" class="table">
+  <tr *ngFor="let item of showQuizWithAnswers();let i = index">
+    <td>
+      {{i+1}}.&nbsp;{{item.question}}<br/>&nbsp;&nbsp;&nbsp;
+      {{item.selectedAnswer}}
+    </td>
+  </tr>
+</table>
+<br/>
+<button style="margin-left: 20px;" type="button" (click)="getResult()">SUBMIT & GET RESULT</button>

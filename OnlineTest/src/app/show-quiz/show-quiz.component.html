@@ -1,0 +1,13 @@
+<form style="margin-left: 20px; margin-top: 25px; width: 20%;" #myForm="ngForm">
+<table class="table">
+<tr *ngFor="let item of getQuiz(); let qObj of getQuestionArray(); let i = index">
+  <td>
+    {{i+1}}. &nbsp;{{item.question}}<br/>&nbsp;&nbsp;&nbsp;
+    <input type="radio" name="question{{i}}" [(ngModel)]="qObj.option1" [value]="item.option1">{{item.option1}}
+    <input type="radio" name="question{{i}}" [(ngModel)]="qObj.option2" [value]="item.option2">{{item.option2}}
+    <input hidden="true" type="radio" name="question{{i}}" [(ngModel)]="qObj.default" [value]="item.default">
+  </td>
+</tr>
+</table>
+<button type="button" (click)="submitAnswers(myForm)">REVIEW ANSWERS</button>
+</form>
