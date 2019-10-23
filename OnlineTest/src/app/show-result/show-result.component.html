@@ -1,11 +1,9 @@
-<!-- <h2>Your mark is {{getResult()}} &nbsp;/ &nbsp; {{getTotalQuestions()}}</h2> -->
-
-<div *ngIf="getResult()!=null">
+<div style="margin-left: 20px;" *ngIf="getResult()!=null">
     <h2>Right Answers: {{getResult()}}</h2>
 </div>
-<div *ngIf="getTotalQuestions()!=null">
+<div style="margin-left: 20px;" *ngIf="getTotalQuestions()!=null">
     <h2>Total Questions: {{getTotalQuestions()}}</h2>
 </div>
 
 <br/>
-<button type="button" (click)="retry()">RETRY QUIZ</button>
+<button style="margin-left: 20px;" type="button" (click)="retry()">RETRY QUIZ</button>
