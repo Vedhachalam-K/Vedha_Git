@@ -28,46 +28,5 @@
 			"actionDate": "2019-09-24T12:00:00.000Z",
 			"statusDone": "yes"
 		}
-	],
-	"quiz": [
-		{
-			"question" : "What is the capital of America?",
-			"option1" : "Washington DC",
-			"option2" : "New Delhi",
-			"answer" : 1,
-			"selectedAnswer" : 0
-		},
-
-		{
-			"question" : "In which continent does America situated?",
-			"option1" : "North America",
-			"option2" : "Asia",
-			"answer" : 1,
-			"selectedAnswer" : 0
-		},
-
-		{
-			"question" : "Who is the president of America?",
-			"option1" : "Donald Trump",
-			"option2" : "Narendra Modi",
-			"answer" : "1",
-			"selectedAnswer" : 0
-		},
-
-		{
-			"question" : "What is the currency of America?",
-			"option1" : "Dollar",
-			"option2" : "Rupee",
-			"answer" : "1",
-			"selectedAnswer" : 0
-		},
-
-		{
-			"question" : "How many states are there in America?",
-			"option1" : "50",
-			"option2" : "100",
-			"answer" : "1",
-			"selectedAnswer" : 0
-		}
 	]
 }
